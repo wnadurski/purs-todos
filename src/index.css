@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +17,7 @@ code {
 }
 
 .todolist-container {
-  max-width: 300px;
+  max-width: 350px;
 }
 
 .todolist__addRow {
@@ -30,4 +29,26 @@ code {
   height: 25px;
   flex: 1;
   margin-right: 10px;
+}
+
+.items-container {
+  margin-top: 20px;
+}
+
+.todo-item {
+  margin-bottom: 10px;
+}
+
+.todo-item label {
+  width: 100%;
+  display: flex;
+}
+
+.todo-item span {
+  flex: 1;
+}
+
+.showall-container {
+  margin-bottom: 20px;
+  display: block;
 }
